@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<!-- saved from url=(0079)file:///Users/ismailelkasbi/Desktop/Work/locationVoiture/cv/index-tailwind.html -->
-<html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ismail El Kasbi — Backend Developer PHP, Drupal, JavaScript, WordPress, SFCC">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ismail El Kasbi — Senior Backend Developer, CMS & E-commerce, Drupal, WordPress, SFCC" />
     <title>Ismail El Kasbi — CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="./Ismail El Kasbi — CV_files/css2" rel="stylesheet">
-    <script src="./Ismail El Kasbi — CV_files/saved_resource"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         darkMode: "class",
@@ -36,29 +36,52 @@
         background-clip: text;
         color: transparent;
       }
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
       @media print {
+        *,
+        *::before,
+        *::after {
+          box-shadow: none !important;
+          text-shadow: none !important;
+          transition: none !important;
+          animation: none !important;
+        }
         .no-print { display: none !important; }
-        body { background: #fff !important; color: #111 !important; }
-        .print-break-inside-avoid { break-inside: avoid; }
-        html.dark, html.dark body { background: #fff !important; color: #111 !important; }
+        body { background: #fff !important; color: #111827 !important; font-size: 10.25pt; line-height: 1.58; }
+        .print-break-inside-avoid { break-inside: avoid; page-break-inside: avoid; }
+        html.dark, html.dark body { background: #fff !important; color: #111827 !important; }
         html.dark .bg-white, html.dark .bg-gray-50 { background: #fff !important; }
         html.dark .text-gray-600, html.dark .text-gray-500 { color: #374151 !important; }
         html.dark .border-gray-200, html.dark .border-gray-800 { border-color: #e5e7eb !important; }
         html.dark .shadow-lg, html.dark .shadow-md { box-shadow: none !important; }
         .lg\:sticky { position: static !important; }
+        .shadow-lg, .shadow-md, .shadow-sm { box-shadow: none !important; }
       }
     </style>
-  <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, system-ui, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-3{bottom:0.75rem}.left-\[11px\]{left:11px}.right-4{right:1rem}.top-3{top:0.75rem}.top-4{top:1rem}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:0.375rem}.h-3{height:0.75rem}.h-4{height:1rem}.min-h-screen{min-height:100vh}.w-1\.5{width:0.375rem}.w-3{width:0.75rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-full{width:100%}.w-px{width:1px}.min-w-0{min-width:0px}.max-w-2xl{max-width:42rem}.max-w-6xl{max-width:72rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}@keyframes fadeIn{0%{opacity:0;transform:translateY(6px)}100%{opacity:1;transform:translateY(0)}}.animate-fade-in{animation:fadeIn 0.5s ease-out}.list-disc{list-style-type:disc}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.gap-1{gap:0.25rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.scroll-smooth{scroll-behavior:smooth}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-blue-100{--tw-border-opacity:1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-blue-600{--tw-border-opacity:1;border-color:rgb(37 99 235 / var(--tw-border-opacity, 1))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-purple-500{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.bg-blue-50\/80{background-color:rgb(239 246 255 / 0.8)}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-purple-500{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-blue-600{--tw-gradient-from:#2563eb var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-600\/10{--tw-gradient-from:rgb(37 99 235 / 0.1) var(--tw-gradient-from-position);--tw-gradient-to:rgb(37 99 235 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-purple-500{--tw-gradient-to:rgb(168 85 247 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #a855f7 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-blue-600{--tw-gradient-to:#2563eb var(--tw-gradient-to-position)}.to-purple-500\/10{--tw-gradient-to:rgb(168 85 247 / 0.1) var(--tw-gradient-to-position)}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pb-16{padding-bottom:4rem}.pb-2{padding-bottom:0.5rem}.pb-6{padding-bottom:1.5rem}.pl-4{padding-left:1rem}.pl-5{padding-left:1.25rem}.pt-1\.5{padding-top:0.375rem}.pt-20{padding-top:5rem}.font-sans{font-family:Inter, system-ui, sans-serif}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[0\.65rem\]{font-size:0.65rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.tracking-\[0\.2em\]{letter-spacing:0.2em}.tracking-tight{letter-spacing:-0.025em}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-gray-200{--tw-ring-opacity:1;--tw-ring-color:rgb(229 231 235 / var(--tw-ring-opacity, 1))}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.marker\:text-blue-600 *::marker{color:rgb(37 99 235 )}.marker\:text-purple-500 *::marker{color:rgb(168 85 247 )}.marker\:text-blue-600::marker{color:rgb(37 99 235 )}.marker\:text-purple-500::marker{color:rgb(168 85 247 )}.hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-\[1\.02\]:hover{--tw-scale-x:1.02;--tw-scale-y:1.02;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-blue-200:hover{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.hover\:border-purple-200:hover{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.hover\:bg-blue-50:hover{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-50:hover{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.hover\:text-purple-600:hover{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:block:is(.dark *){display:block}.dark\:hidden:is(.dark *){display:none}.dark\:border-blue-400:is(.dark *){--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.dark\:border-blue-900\/50:is(.dark *){border-color:rgb(30 58 138 / 0.5)}.dark\:border-gray-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.dark\:border-gray-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.dark\:border-gray-900:is(.dark *){--tw-border-opacity:1;border-color:rgb(17 24 39 / var(--tw-border-opacity, 1))}.dark\:border-purple-400:is(.dark *){--tw-border-opacity:1;border-color:rgb(192 132 252 / var(--tw-border-opacity, 1))}.dark\:bg-blue-400:is(.dark *){--tw-bg-opacity:1;background-color:rgb(96 165 250 / var(--tw-bg-opacity, 1))}.dark\:bg-blue-950\/50:is(.dark *){background-color:rgb(23 37 84 / 0.5)}.dark\:bg-gray-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900\/90:is(.dark *){background-color:rgb(17 24 39 / 0.9)}.dark\:bg-gray-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(3 7 18 / var(--tw-bg-opacity, 1))}.dark\:bg-purple-400:is(.dark *){--tw-bg-opacity:1;background-color:rgb(192 132 252 / var(--tw-bg-opacity, 1))}.dark\:from-blue-400:is(.dark *){--tw-gradient-from:#60a5fa var(--tw-gradient-from-position);--tw-gradient-to:rgb(96 165 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.dark\:from-blue-500\/20:is(.dark *){--tw-gradient-from:rgb(59 130 246 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.dark\:via-purple-400:is(.dark *){--tw-gradient-to:rgb(192 132 252 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #c084fc var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-blue-400:is(.dark *){--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.dark\:to-purple-500\/20:is(.dark *){--tw-gradient-to:rgb(168 85 247 / 0.2) var(--tw-gradient-to-position)}.dark\:text-blue-300:is(.dark *){--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.dark\:text-blue-400:is(.dark *){--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.dark\:text-gray-100:is(.dark *){--tw-text-opacity:1;color:rgb(243 244 246 / var(--tw-text-opacity, 1))}.dark\:text-gray-200:is(.dark *){--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.dark\:text-gray-300:is(.dark *){--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400:is(.dark *){--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-gray-500:is(.dark *){--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.dark\:text-purple-400:is(.dark *){--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:shadow-none:is(.dark *){--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-gray-700:is(.dark *){--tw-ring-opacity:1;--tw-ring-color:rgb(55 65 81 / var(--tw-ring-opacity, 1))}.dark\:marker\:text-purple-400 *:is(.dark *)::marker{color:rgb(192 132 252 )}.dark\:marker\:text-purple-400:is(.dark *)::marker{color:rgb(192 132 252 )}.dark\:hover\:border-purple-800:hover:is(.dark *){--tw-border-opacity:1;border-color:rgb(107 33 168 / var(--tw-border-opacity, 1))}.dark\:hover\:border-purple-900:hover:is(.dark *){--tw-border-opacity:1;border-color:rgb(88 28 135 / var(--tw-border-opacity, 1))}.dark\:hover\:bg-purple-950\/40:hover:is(.dark *){background-color:rgb(59 7 100 / 0.4)}.dark\:hover\:bg-purple-950\/50:hover:is(.dark *){background-color:rgb(59 7 100 / 0.5)}.dark\:hover\:text-purple-400:hover:is(.dark *){--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:col-span-2{grid-column:span 2 / span 2}.sm\:inline{display:inline}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-start{align-items:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:p-6{padding:1.5rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width: 1024px){.lg\:sticky{position:sticky}.lg\:top-24{top:6rem}.lg\:w-\[320px\]{width:320px}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:items-start{align-items:flex-start}.lg\:gap-10{gap:2.5rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:pt-24{padding-top:6rem}}@media print{.print\:hidden{display:none}}</style></head>
+  </head>
   <body class="min-h-screen bg-gray-50 font-sans text-gray-900 antialiased transition-colors duration-300 dark:bg-gray-950 dark:text-gray-100">
     <div class="no-print fixed right-4 top-4 z-50 flex gap-2 print:hidden">
-      <button type="button" id="theme-toggle" class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white/90 px-3 py-2 text-sm font-medium text-gray-700 shadow-md backdrop-blur transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-700 dark:bg-gray-900/90 dark:text-gray-200" aria-label="Toggle dark mode">
-        <svg class="h-4 w-4 dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
-        <svg class="hidden h-4 w-4 dark:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+      <button
+        type="button"
+        id="theme-toggle"
+        class="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white/90 px-3 py-2 text-sm font-medium text-gray-700 shadow-md backdrop-blur transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-700 dark:bg-gray-900/90 dark:text-gray-200"
+        aria-label="Toggle dark mode"
+      >
+        <svg class="h-4 w-4 dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+        <svg class="hidden h-4 w-4 dark:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
         <span class="hidden sm:inline">Theme</span>
       </button>
-      <button type="button" onclick="window.print()" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:scale-[1.02] hover:bg-blue-700 hover:shadow-lg" aria-label="Print or save as PDF">
+      <button
+        type="button"
+        onclick="window.print()"
+        class="inline-flex items-center gap-2 rounded-2xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:scale-[1.02] hover:bg-blue-700 hover:shadow-lg"
+        aria-label="Print or save as PDF"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
         </svg>
         Download PDF
       </button>
@@ -66,39 +89,38 @@
 
     <div class="mx-auto max-w-6xl px-4 pb-16 pt-20 sm:px-6 lg:px-8 lg:pt-24">
       <div class="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-10">
-        <!-- Sticky sidebar -->
         <aside class="animate-fade-in w-full shrink-0 lg:sticky lg:top-24 lg:w-[320px]" aria-label="Contact and skills">
           <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg transition-shadow duration-300 dark:border-gray-800 dark:bg-gray-900 dark:shadow-none">
             <header class="mb-6 border-b border-gray-100 pb-6 dark:border-gray-800">
               <h1 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ismail El Kasbi</h1>
-              <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Backend Developer PHP · Drupal · JS · WordPress · SFCC</p>
+              <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Senior Backend Developer · PHP · Drupal · WordPress · SFCC</p>
             </header>
 
             <section class="mb-6" aria-labelledby="contact-heading">
               <h2 id="contact-heading" class="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400">Personal details</h2>
               <ul class="space-y-3 text-sm text-gray-700 dark:text-gray-300">
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   <a href="mailto:ismailelkasbi@gmail.com" class="font-medium text-blue-600 transition-colors hover:text-purple-600 dark:text-blue-400 dark:hover:text-purple-400">ismailelkasbi@gmail.com</a>
                 </li>
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   <a href="tel:+212625598373" class="font-medium text-blue-600 transition-colors hover:text-purple-600 dark:text-blue-400 dark:hover:text-purple-400">+212 625 598 373</a>
                 </li>
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                   <span>Lot Morvane Imm 16, Appt 10, Tabriquet, Salé, Morocco</span>
                 </li>
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                   <span>April 20, 1995</span>
                 </li>
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                   <span>Moroccan · Married</span>
                 </li>
                 <li class="flex gap-3">
-                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
                   <a href="https://www.linkedin.com/in/ismail-el-kasbi" rel="noopener noreferrer" class="font-medium text-blue-600 transition-colors hover:text-purple-600 dark:text-blue-400 dark:hover:text-purple-400">ismail-el-kasbi</a>
                 </li>
               </ul>
@@ -108,41 +130,70 @@
               <h2 id="skills-heading" class="mb-4 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400">Skills</h2>
               <div class="space-y-4">
                 <div>
-                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">Core</p>
+                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">Backend</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">PHP</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">JavaScript</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Node.js</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">HTML5</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">CSS3</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">CMS</p>
                   <div class="flex flex-wrap gap-2">
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Drupal 7–10</span>
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">WordPress</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">PHP</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">APIs &amp; E-commerce</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">REST APIs</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Composer</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">SFCC (SFRA / SiteGenesis)</span>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">Database</p>
+                  <div class="flex flex-wrap gap-2">
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">MySQL</span>
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">MariaDB</span>
                   </div>
                 </div>
                 <div>
-                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">Languages &amp; front</p>
+                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">DevOps &amp; cloud</p>
                   <div class="flex flex-wrap gap-2">
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">JavaScript</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">HTML5</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">CSS3</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Node.js</span>
-                  </div>
-                </div>
-                <div>
-                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">APIs &amp; tooling</p>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">REST APIs</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Composer</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">SFCC (SiteGenesis / SFRA)</span>
-                  </div>
-                </div>
-                <div>
-                  <p class="mb-2 text-xs font-semibold text-gray-800 dark:text-gray-200">OS &amp; DevOps</p>
-                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Docker</span>
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Ubuntu</span>
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Windows</span>
                     <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">macOS</span>
-                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Docker</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Cloud (SFCC)</span>
+                    <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">CI/CD</span>
                   </div>
                 </div>
+              </div>
+            </section>
+
+            <section class="mb-6" aria-labelledby="vcs-heading">
+              <h2 id="vcs-heading" class="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400">Version control</h2>
+              <div class="flex flex-wrap gap-2">
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Git</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">GitHub</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">GitLab</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">SVN</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Feature branching</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Code review</span>
+              </div>
+            </section>
+
+            <section class="mb-6" aria-labelledby="testing-heading">
+              <h2 id="testing-heading" class="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-400">Testing</h2>
+              <div class="flex flex-wrap gap-2">
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">PHPUnit</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Drupal Kernel</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">Drupal Functional</span>
+                <span class="rounded-lg border border-gray-200 bg-gray-50 px-2.5 py-1 text-xs font-medium text-gray-700 transition-all duration-300 hover:border-blue-200 hover:bg-blue-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-purple-900 dark:hover:bg-purple-950/40">WordPress testing</span>
               </div>
             </section>
 
@@ -170,47 +221,105 @@
           </div>
         </aside>
 
-        <!-- Main -->
         <div class="min-w-0 flex-1 animate-fade-in space-y-10" style="animation-delay: 0.08s">
           <header class="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg dark:border-gray-800 dark:bg-gray-900 sm:p-8" aria-label="Headline">
             <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/80 px-3 py-1 text-xs font-semibold text-blue-700 dark:border-blue-900/50 dark:bg-blue-950/50 dark:text-blue-300">
               <span class="h-1.5 w-1.5 rounded-full bg-blue-600 dark:bg-blue-400"></span>
-              Backend Developer · 8+ years
+              Senior Backend Developer · 8+ years · CMS &amp; E-commerce
             </div>
             <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
               <span class="text-gradient">Ismail El Kasbi</span>
             </h2>
-            <p class="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-200">Backend Developer · PHP / Drupal / JS / WordPress / SFCC</p>
-            <p class="mt-2 max-w-2xl text-base leading-relaxed text-gray-600 dark:text-gray-400">Over 8 years in web development · tailored CMS and e-commerce delivery</p>
+            <p class="mt-3 text-lg font-semibold text-gray-800 dark:text-gray-200">Senior Backend Developer · 8+ years · CMS &amp; E-commerce Specialist</p>
+            <p class="mt-2 text-sm font-medium text-gray-600 dark:text-gray-400">PHP · Drupal · WordPress · Salesforce Commerce Cloud · REST APIs</p>
+            <p class="mt-3 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+              Specialized in scalable CMS, e-commerce platforms, and API-driven architectures for European and international product teams.
+            </p>
             <div class="mt-6 flex flex-wrap gap-3" role="list" aria-label="Key strengths">
               <span role="listitem" class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-300 hover:scale-[1.02] hover:border-blue-200 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-purple-800">
-                <svg class="h-4 w-4 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                Drupal &amp; WordPress
+                <svg class="h-4 w-4 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                CMS architecture
               </span>
               <span role="listitem" class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-300 hover:scale-[1.02] hover:border-blue-200 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-purple-800">
-                <svg class="h-4 w-4 text-purple-600 dark:text-purple-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path></svg>
-                MySQL &amp; MariaDB
+                <svg class="h-4 w-4 text-purple-600 dark:text-purple-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                Performance &amp; scale
               </span>
               <span role="listitem" class="inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-300 hover:scale-[1.02] hover:border-blue-200 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-purple-800">
-                <svg class="h-4 w-4 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
-                REST APIs &amp; Composer
+                <svg class="h-4 w-4 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
+                Cloud e-commerce (SFCC)
               </span>
             </div>
           </header>
 
           <section class="rounded-2xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-800 dark:bg-gray-900 sm:p-8" aria-labelledby="summary-heading">
-            <h2 id="summary-heading" class="mb-4 border-b border-gray-200 pb-2 text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:border-gray-700 dark:text-gray-400">Strengths</h2>
-            <p class="text-base leading-relaxed text-gray-600 dark:text-gray-300">
-              Over 8 years of experience in web development, specializing in Drupal 7–10, WordPress, and JavaScript, with expertise in delivering tailored solutions to meet client requirements.
-              WordPress expertise; Drupal mastery; database management with MySQL and MariaDB; knowledge of PHP and CMS platforms; experience with Composer and dependency management; development of REST APIs; experience with Agile methodologies.
+            <h2 id="summary-heading" class="mb-4 border-b border-gray-200 pb-2 text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:border-gray-700 dark:text-gray-400">Summary</h2>
+            <p class="max-w-3xl text-base leading-relaxed text-gray-600 dark:text-gray-300">
+              Senior backend engineer with eight years delivering scalable CMS and commerce platforms for global brands. I architect Drupal and WordPress programmes—migrations, custom modules, integrations—and Salesforce Commerce Cloud (SFRA / SiteGenesis) storefronts in cloud environments. I optimize MySQL and MariaDB, build REST APIs, and own tested releases to production on Docker and Ubuntu/Linux within agile teams. Engineering hygiene spans Git on GitHub/GitLab (and SVN where legacy estates require it), peer code review, PHPUnit plus Drupal Kernel/Functional and WordPress testing, and CI/CD-aware promotion from test through staging to production.
             </p>
+          </section>
+
+          <section class="rounded-2xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-800 dark:bg-gray-900 sm:p-8" aria-labelledby="expertise-heading">
+            <h2 id="expertise-heading" class="mb-6 border-b border-gray-200 pb-2 text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:border-gray-700 dark:text-gray-400">Core expertise</h2>
+            <div class="grid gap-4 md:grid-cols-2">
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Backend</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Build and evolve PHP backends with clear boundaries, Composer-managed dependencies, and maintainable delivery practices.</li>
+                  <li>Implement secure, testable server-side features aligned with performance and observability expectations.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">CMS</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Lead Drupal 7 through 10 programmes: audits, module strategy, content models, themes, and cutover planning.</li>
+                  <li>Ship enterprise WordPress solutions with bespoke functionality and integration to surrounding systems.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">APIs</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Design and deliver REST APIs and service integrations for commerce, content, and payment orchestration.</li>
+                  <li>Customize SFCC pipelines and controllers for multi-market, multi-locale storefront requirements.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Database</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Model complex relational schemas for CMS entities, orders, and catalog data.</li>
+                  <li>Tune queries, indexing, and caching strategies to protect latency under production load.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Version control</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Lead Git-based delivery on GitHub and GitLab: feature branches, pull/merge requests, rebases, and conflict resolution suited to multi-developer CMS teams.</li>
+                  <li>Support SVN-backed codebases where still in service; align branching, tagging, and release practices with delivery cadence.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Testing &amp; quality</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Author PHPUnit coverage for PHP services and CMS extensions; run Drupal Kernel and Functional suites to lock down custom modules and upgrades.</li>
+                  <li>Apply WordPress testing practices and coding-standard discipline so plugins and themes ship with measurable quality gates.</li>
+                </ul>
+              </div>
+              <div class="print-break-inside-avoid rounded-xl border border-gray-100 bg-gray-50/80 p-4 md:col-span-2 dark:border-gray-800 dark:bg-gray-800/40">
+                <h3 class="mb-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">DevOps</h3>
+                <ul class="list-disc space-y-2 pl-4 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
+                  <li>Promote validated builds from testing through staging to production with disciplined release hygiene and CI/CD checkpoints wherever pipelines exist.</li>
+                  <li>Operate containerized workloads with Docker on Ubuntu/Linux and collaborate in agile (Scrum) delivery.</li>
+                </ul>
+              </div>
+            </div>
           </section>
 
           <section aria-labelledby="exp-heading">
             <h2 id="exp-heading" class="mb-6 border-b border-gray-200 pb-2 text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:border-gray-700 dark:text-gray-400">Professional experience</h2>
             <div class="relative">
-              <!-- Rail: centered in the w-6 marker column (12px = half of 24px) -->
-              <div class="pointer-events-none absolute bottom-3 left-[11px] top-3 w-px bg-gradient-to-b from-blue-600 via-purple-500 to-blue-600 dark:from-blue-400 dark:via-purple-400 dark:to-blue-400" aria-hidden="true"></div>
+              <div
+                class="pointer-events-none absolute bottom-3 left-[11px] top-3 w-px bg-gradient-to-b from-blue-600 via-purple-500 to-blue-600 dark:from-blue-400 dark:via-purple-400 dark:to-blue-400"
+                aria-hidden="true"
+              ></div>
               <div class="space-y-6">
                 <div class="relative flex gap-4">
                   <div class="relative z-10 flex w-6 shrink-0 justify-center pt-1.5" aria-hidden="true">
@@ -225,12 +334,12 @@
                       <p class="shrink-0 text-sm text-gray-500 dark:text-gray-400">Mar 2021 — present · Rabat, Morocco</p>
                     </div>
                     <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
-                      <li>Analyze technical specifications and development needs.</li>
-                      <li>Project design and analysis.</li>
-                      <li>Estimation of the time required for each project task.</li>
-                      <li>Development of specific CMS modules.</li>
-                      <li>Participation in resolving support tickets and bugs.</li>
-                      <li>Migration of developments from the testing environment to production.</li>
+                      <li>Translate product and technical specifications into actionable CMS delivery plans, scope, and milestones.</li>
+                      <li>Estimate and sequence engineering work to balance velocity with quality gates: reviews, automated checks, and test-ready increments.</li>
+                      <li>Design and implement bespoke Drupal and WordPress modules; protect regressions with PHPUnit and Drupal/WordPress-appropriate automated tests on critical paths.</li>
+                      <li>Ship through Git on GitHub/GitLab using feature branches and pull/merge requests, with constructive code review before integration.</li>
+                      <li>Resolve production issues by triaging support tickets, diagnosing root causes, and shipping durable fixes backed by targeted test coverage.</li>
+                      <li>Own promotion of validated changes from testing through staging to production using repeatable, CI/CD-aligned steps and controlled rollout discipline.</li>
                     </ul>
                   </article>
                 </div>
@@ -248,15 +357,12 @@
                       <p class="shrink-0 text-sm text-gray-500 dark:text-gray-400">Nov 2019 — Feb 2021 · Casablanca, Morocco</p>
                     </div>
                     <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600 marker:text-purple-500 dark:text-gray-300 dark:marker:text-purple-400">
-                      <li>Estimation, needs analysis, and development.</li>
-                      <li>Development of e-commerce websites for GUERLAIN and JENNYFER.</li>
-                      <li>Technologies: SFCC (SiteGenesis / SFRA). Technical environment: cloud.</li>
-                      <li>Integration of the Adyen PSP payment method.</li>
-                      <li>Development of the back-end portion of the FR / US / JP website.</li>
-                      <li>Estimation of the time required for each project task.</li>
-                      <li>Analysis of client needs; study of the technical specifications of the program (Agile method).</li>
-                      <li>Development of the GUERLAIN and JENNYFER websites.</li>
-                      <li>Functional e-commerce websites for GUERLAIN (FR / US / JP) and JENNYFER.</li>
+                      <li>Built SFCC (SFRA / SiteGenesis) e-commerce experiences in the cloud for GUERLAIN (FR / US / JP) and JENNYFER within agile squads.</li>
+                      <li>Implemented Adyen PSP payment flows for Jennyfer, aligning checkout with multi-market configuration and compliance needs.</li>
+                      <li>Delivered regional back-end capabilities for luxury commerce across three locales on a shared technical foundation.</li>
+                      <li>Raised code quality through peer review, scripted verification of cartridges and integrations, and release checklists aligned with cloud SFCC practice.</li>
+                      <li>Led discovery and estimation alongside client stakeholders; converted requirements into executable technical specifications.</li>
+                      <li>Shipped production-ready storefronts that supported high-visibility brand launches and ongoing digital revenue.</li>
                     </ul>
                   </article>
                 </div>
@@ -274,19 +380,13 @@
                       <p class="shrink-0 text-sm text-gray-500 dark:text-gray-400">Jan 2016 — Oct 2019 · Rabat, Morocco</p>
                     </div>
                     <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-purple-400">
-                      <li>Back-end development and website redesign.</li>
-                      <li>Study of the 4D website redesign from Drupal 7 to Drupal 10.</li>
-                      <li>Audit of the existing Drupal 7 website.</li>
-                      <li>Inventory of modules used (contributed and customized).</li>
-                      <li>Database status: content, structure, custom entities.</li>
-                      <li>Theme analysis: responsiveness, compatibility, complexity.</li>
-                      <li>Security and performance status.</li>
-                      <li>Identification of new or modified needs.</li>
-                      <li>Removal of updated features.</li>
-                      <li>Development of the Worldtour website in Drupal 9 and the update to Drupal 10.</li>
-                      <li>Development of the Qodly website in Drupal 10.</li>
-                      <li>Development of the Blog website in WordPress.</li>
-                      <li>Functional websites in Drupal 9 and 10.</li>
+                      <li>Directed technical discovery for 4D’s Drupal 7→10 modernization: audited contributed and custom modules, entities, themes, security posture, and performance baselines.</li>
+                      <li>Produced structured inventories and data-model documentation to de-risk migration scope and stakeholder sign-off.</li>
+                      <li>Delivered the Worldtour property on Drupal 9 and executed the upgrade path to Drupal 10 for long-term supportability.</li>
+                      <li>Built Qodly on Drupal 10 and a WordPress blog in parallel with flagship digital programmes.</li>
+                      <li>Strengthened quality with PHPUnit and Drupal Kernel/Functional coverage on high-risk customizations, plus WordPress testing discipline on plugin work.</li>
+                      <li>Collaborated in Git-centric workflows with SVN exposure on older estates; enforced review and branching conventions ahead of major releases.</li>
+                      <li>Retired superseded functionality and resolved responsiveness, compatibility, and performance findings to de-risk migration cutover.</li>
                     </ul>
                   </article>
                 </div>
@@ -297,25 +397,54 @@
           <section aria-labelledby="projects-heading">
             <h2 id="projects-heading" class="mb-6 border-b border-gray-200 pb-2 text-xs font-bold uppercase tracking-[0.2em] text-gray-500 dark:border-gray-700 dark:text-gray-400">Selected projects</h2>
             <div class="grid gap-4 sm:grid-cols-2">
+              <div
+                class="sm:col-span-2 rounded-2xl border-2 border-blue-200/90 bg-gradient-to-br from-white via-blue-50/40 to-gray-50 p-6 shadow-lg ring-1 ring-blue-100/80 transition-all duration-300 hover:scale-[1.01] hover:border-blue-300 hover:shadow-xl dark:border-blue-800 dark:from-gray-900 dark:via-blue-950/40 dark:to-gray-950 dark:ring-blue-900/40"
+              >
+                <p class="mb-2 inline-block rounded-md bg-blue-100 px-2 py-0.5 text-[0.65rem] font-extrabold uppercase tracking-wider text-blue-800 dark:bg-blue-950 dark:text-blue-300">Flagship · 4D</p>
+                <h3 class="text-base font-bold tracking-tight text-gray-900 dark:text-white">4D Learn · WordPress LMS (LearnPress)</h3>
+                <p class="mt-1 text-sm italic text-gray-600 dark:text-gray-400">Learn 4D — your hub for structured courses, tutorials, and expert-led masterclasses.</p>
+                <div class="mt-3 flex flex-wrap gap-1.5" aria-label="Technologies">
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">WordPress</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">LearnPress</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">Custom plugins</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">REST APIs</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">DeepL API</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">GitHub</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">AWS S3</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">SSO</span>
+                  <span class="rounded-md border border-blue-200/80 bg-white/90 px-2 py-0.5 text-[0.65rem] font-semibold text-blue-800 dark:border-blue-800 dark:bg-gray-900 dark:text-blue-300">Marketo</span>
+                </div>
+                <p class="mt-3 text-sm font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                  Designed and built a full-featured e-learning platform on WordPress and LearnPress with multiple custom plugins to extend the LMS, automate workflows, and integrate enterprise systems.
+                </p>
+                <ul class="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600 marker:text-blue-600 dark:text-gray-300 dark:marker:text-blue-400">
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">Multilingual (DeepL API):</span> automatic translation pipeline for courses, lessons, and quizzes with cross-locale synchronization.</li>
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">GitHub sync plugin:</span> course content versioning and bidirectional sync with GitHub repositories for maintainable curricula.</li>
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">AWS S3 integration:</span> automated upload and management of course materials in S3 buckets.</li>
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">Single Sign-On:</span> authentication against 4D accounts via external API for a unified learner experience.</li>
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">Marketo APIs:</span> synced users, leads, and course interactions; enabled automated campaigns and engagement tracking.</li>
+                  <li><span class="font-semibold text-gray-800 dark:text-gray-200">Architecture:</span> modular plugin design for scalability and safe extension over time.</li>
+                </ul>
+              </div>
               <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                 <h3 class="text-sm font-bold text-gray-900 dark:text-white">GUERLAIN · SFCC</h3>
-                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Back-end portion of the FR / US / JP website; cloud environment; functional e-commerce delivery.</p>
+                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Luxury multi-region commerce: SFRA back-end for FR / US / JP on Salesforce B2C Commerce Cloud. Impact: enabled consistent catalog, pricing, and regional experiences while accelerating time-to-market for international campaigns.</p>
               </div>
               <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                 <h3 class="text-sm font-bold text-gray-900 dark:text-white">JENNYFER · SFCC</h3>
-                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">E-commerce development with Adyen PSP integration; SiteGenesis / SFRA.</p>
+                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Fashion retail storefront on SiteGenesis / SFRA with Adyen PSP integration. Impact: streamlined checkout and payment orchestration for agile iteration on conversion-focused features.</p>
               </div>
               <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                 <h3 class="text-sm font-bold text-gray-900 dark:text-white">Worldtour · Drupal</h3>
-                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Drupal 9 build and migration to Drupal 10.</p>
+                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Drupal 9 implementation with a planned Drupal 10 upgrade. Impact: modernized editorial workflows and reduced upgrade risk through documented module and entity strategy.</p>
               </div>
               <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
                 <h3 class="text-sm font-bold text-gray-900 dark:text-white">Qodly · Drupal 10</h3>
-                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Website development on Drupal 10.</p>
+                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">Greenfield Drupal 10 site with custom content architecture. Impact: aligned marketing and product teams on a maintainable, API-ready CMS baseline.</p>
               </div>
               <div class="rounded-2xl border border-gray-200 bg-white p-5 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:col-span-2 dark:border-gray-800 dark:bg-gray-900">
                 <h3 class="text-sm font-bold text-gray-900 dark:text-white">Blog · WordPress</h3>
-                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">WordPress site development.</p>
+                <p class="mt-2 text-sm leading-relaxed text-gray-600 dark:text-gray-400">WordPress publishing platform integrated with the wider digital estate. Impact: faster content cycles and a clear extension path for editorial plugins and integrations.</p>
               </div>
             </div>
           </section>
@@ -378,6 +507,5 @@
         }
       })();
     </script>
-  
-
-</body></html>
+  </body>
+</html>
